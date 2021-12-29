@@ -23,13 +23,13 @@ class Navbar extends Component {
                             aria-expanded={this.state.open ? 'true' : 'false'}
                             className="dropdown-toggle"
                             data-toggle="dropdown">
-                            <img src="https://bn1304files.storage.live.com/y4py7FAb7sAyOsJzyhSv0JoTfooMfSgBWuXd7rntEwPtR_8AzScoBTeJhtxpRoxBC6HCN5jrMA84HI-3zHWLfN3-UvXuEzaoNG-4v8rRiJ5a0jnAoOs8xVEahP0XdffkhxzreWTq22YUmNsER0cpy_s-Npz7C8wCDQMHcRgNEMLBJS-6u-GTlNapojerUXAqFXlQS_jGCRaYZeT7cUC_FCzM0B9XzFe9MYDqFDI1SIWkhs/WAGNER.png?psid=1&width=100&height=100&cropMode=center"
+                            <img src="https://bn1304files.storage.live.com/y4m3FTj_WOwVW-aJgDkZG3lGdE1XZMgkJggvgD-cOzlthrc1jtxwsr93C48wfwdspgyl1tRWfbf3hi8w63zyrrIs6QIi3Al4VwGouNUT27zpRQ_WLLwS0yBM0BKbXaQB-iJcvw8IQdOj4Bc63yNQ4_YwTQCFmuG0sPMYIFO3exrbWy2IKfos7XOFB2-qhxbQJ-0VHXMI0iBZGXQfk4QmCIkTw/WAGNER.png?psid=1&width=100&height=100&cropMode=center"
                                 className="user-image" alt="User Image" />
                             <span className="hidden-xs">{name}</span>
                         </a>
                         <ul className="dropdown-menu">
                             <li className="user-header">
-                                <img src="https://bn1304files.storage.live.com/y4py7FAb7sAyOsJzyhSv0JoTfooMfSgBWuXd7rntEwPtR_8AzScoBTeJhtxpRoxBC6HCN5jrMA84HI-3zHWLfN3-UvXuEzaoNG-4v8rRiJ5a0jnAoOs8xVEahP0XdffkhxzreWTq22YUmNsER0cpy_s-Npz7C8wCDQMHcRgNEMLBJS-6u-GTlNapojerUXAqFXlQS_jGCRaYZeT7cUC_FCzM0B9XzFe9MYDqFDI1SIWkhs/WAGNER.png?psid=1&width=100&height=100&cropMode=center"
+                                <img src="https://bn1304files.storage.live.com/y4m3FTj_WOwVW-aJgDkZG3lGdE1XZMgkJggvgD-cOzlthrc1jtxwsr93C48wfwdspgyl1tRWfbf3hi8w63zyrrIs6QIi3Al4VwGouNUT27zpRQ_WLLwS0yBM0BKbXaQB-iJcvw8IQdOj4Bc63yNQ4_YwTQCFmuG0sPMYIFO3exrbWy2IKfos7XOFB2-qhxbQJ-0VHXMI0iBZGXQfk4QmCIkTw/WAGNER.png?psid=1&width=100&height=100&cropMode=center"
                                     className="img-circle" alt="User Image" />
                                 <p>{name}<small>{email}</small></p>
                             </li>
